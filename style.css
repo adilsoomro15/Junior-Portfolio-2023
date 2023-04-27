@@ -652,17 +652,14 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 
 
-body {
-  margin: 0;
-  padding: 0;
-  background: #262626;
-}
+
 
 .socials {
   margin: 0;
+  display: inline-flex !important;
+    text-align: center;
   padding: 15px;
   display: flex;
-  position: absolute;
  
 }
 
