@@ -31,13 +31,16 @@ body {
   0% {
     background-position: -500%;
   }
-50% {
-  background-position: 0%;
-}
+
+  50% {
+    background-position: 0%;
+  }
+
   100% {
     background-position: 500%;
   }
 }
+
 .btn-one {
   color: #FFF;
   transition: all 0.3s;
@@ -93,9 +96,11 @@ body {
   opacity: 0;
   transform: scale(0.1, 1);
 }
+
 .websitesample {
   font-size: 25px;
 }
+
 .sitetable td {
   border: 10px solid #333333;
 }
@@ -106,6 +111,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .blurbackground {
   width: 300px;
   height: auto;
@@ -145,14 +151,17 @@ body {
 .blurbackground:hover :not(img) {
   opacity: 1;
 }
+
 .nav-link {
   font-size: 20px !important;
   font-family: "Coda", cursive;
 }
+
 .navbar-brand {
   font-size: 25px !important;
   font-family: "Coda", cursive;
 }
+
 .heading {
   padding-top: 80px;
 }
@@ -161,6 +170,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 img.shadow-filter:hover {
   filter: drop-shadow(8px 8px 10px black);
 }
@@ -168,30 +178,17 @@ img.shadow-filter:hover {
 .slide-wrapper1 {
   background: url("https://i.imgur.com/FUzWx09.png")
 }
+
 .slide-wrapper2 {
   background: url("https://i.imgur.com/CM0i60b.png")
 }
+
 .slide-wrapper3 {
   background: url("https://www.kaplaninternational.com/blog/files/inline-images/Stack%20of%20papers.png")
 }
-.slide-wrapper4 {
-  background: url("https://i.imgur.com/dsHTcT3.png")
-}
-.slide-wrapper5 {
-  background: url("https://i.imgur.com/JUjniyX.jpg")
-}
-.slide-wrapper6 {
-  background: url("https://i.imgur.com/ggcWfzV.png")
-}
-.slide-wrapper7 {
-  background: url("https://i.imgur.com/TTprJXn.png")
-}
-.slide-wrapper8 {
-  background: url("https://i.imgur.com/ckN1irg.png")
-}
 
 .slide-wrapper {
-    no-repeat center center transparent;
+  no-repeat center center transparent;
   background-size: cover;
   font-family: sans-serif;
   height: 25rem;
@@ -255,6 +252,7 @@ img.shadow-filter:hover {
 .slide-wrapper .slide-text p:last-child {
   margin-bottom: 0;
 }
+
 .slide-wrapper .slide-text a {
   color: #fff;
 }
@@ -275,77 +273,84 @@ img.shadow-filter:hover {
 .slide-wrapper .slide-text a.button:hover {
   color: #ff3233;
 }
+
 .slide-wrapper:hover::after {
   opacity: 1;
 }
+
 .slide-wrapper:hover .slide-body {
   max-height: 660px;
   opacity: 1;
 }
+
 .masthead {
   padding-top: 150px;
   display: flex;
 }
+
 #head {
-	font-size: 100px;
-	font-family: "Coda",
-		cursive;
-	letter-spacing: 5px;
-}
-#headpages {
-	font-size: 80px;
-	font-family: "Coda",
-		cursive;
+  font-size: 100px;
+  font-family: "Coda",
+    cursive;
   letter-spacing: 5px;
 }
+
+#headpages {
+  font-size: 80px;
+  font-family: "Coda",
+    cursive;
+  letter-spacing: 5px;
+}
+
 .titlebox {
-	background-image: url(https://wallpapercave.com/wp/yyaDv81.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+  background-image: url(https://wallpapercave.com/wp/yyaDv81.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.blurbackground{
-  width:300px;
-  height:auto;
-  display:inline-block;
-  position:relative;
-  transition:.3s;
-  margin:4px;
+.blurbackground {
+  width: 300px;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  transition: .3s;
+  margin: 4px;
 }
 
-.blurbackground img{
-  width:100%;
-  height:100%;
-  transition:.3s;
-  border-radius:4px;
+.blurbackground img {
+  width: 100%;
+  height: 100%;
+  transition: .3s;
+  border-radius: 4px;
 }
 
-.blurbackground:hover img{
-  filter:blur(3px) brightness(60%);
-  box-shadow:0 0 16px;
-}
- 
-.blurbackground :not(img){
-  position:absolute;
-  z-index:1;
-  top:30%;
-  width:100%;
-  text-align:center;
-  color:#fff;
-  opacity:0;
-  transition:.3s;
+.blurbackground:hover img {
+  filter: blur(3px) brightness(60%);
+  box-shadow: 0 0 16px;
 }
 
-.blurbackground h3{
-  top:50%
+.blurbackground :not(img) {
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  transition: .3s;
 }
 
-.blurbackground:hover :not(img){
-  opacity:1;
+.blurbackground h3 {
+  top: 50%
 }
+
+.blurbackground:hover :not(img) {
+  opacity: 1;
+}
+
 .aboutparagraph {
   font-size: 15px;
-  
+
 }
 
 
@@ -460,3 +465,187 @@ form .g-inp {
   color: white;
   font-weight: 500;
 }
+
+
+
+
+
+.grid {
+  position: relative;
+  margin: 0 auto;
+  padding: 1em 2em 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 320px;
+  max-width: 480px;
+  max-height: 360px;
+  width: 48%;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption>a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption>a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.grid figure h2 span {
+  font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+figure.effect-zoe figcaption {
+  top: auto;
+  bottom: 0;
+  padding: 1em;
+  height: 3.75em;
+  background: #fff;
+  color: #3c4a50;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+
+figure.effect-zoe h2 {
+  float: left;
+}
+
+figure.effect-zoe p.icon-links a {
+  float: right;
+  color: #3c4a50;
+  font-size: 1.4em;
+}
+
+figure.effect-zoe:hover p.icon-links a:hover,
+figure.effect-zoe:hover p.icon-links a:focus {
+  color: #252d31;
+}
+
+figure.effect-zoe p.description {
+  position: absolute;
+  bottom: 8em;
+  padding: 2em;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.546);
+  text-transform: none;
+  font-size: 90%;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-backface-visibility: hidden;
+  /* Fix for Chrome 37.0.2062.120 (Mac) */
+}
+
+figure.effect-zoe h2,
+figure.effect-zoe p.icon-links a {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
+}
+
+figure.effect-zoe p.icon-links a span::before {
+  display: inline-block;
+  padding: 8px 10px;
+  font-family: 'feathericons';
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+figure.effect-zoe h2 {
+  display: inline-block;
+}
+
+figure.effect-zoe:hover p.description {
+  opacity: 1;
+}
+
+figure.effect-zoe:hover figcaption,
+figure.effect-zoe:hover h2,
+figure.effect-zoe:hover p.icon-links a {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+figure.effect-zoe:hover h2 {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+figure.effect-zoe:hover p.icon-links a:nth-child(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+figure.effect-zoe:hover p.icon-links a:nth-child(2) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+figure.effect-zoe:hover p.icon-links a:first-child {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
